@@ -1,0 +1,61 @@
+/* 
+ @ Author : Norman Zvenyika
+ @ Date: 05/27/2022
+ Animal Cards Project CSS Styles Sheet
+*/
+
+/* Container of the card */
+.cardOuterWrapper {
+    width: 300px;
+    border: 0.6px solid gray;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+/* Card Title Formatting */
+.cardTitle {
+    padding-left: 10px;
+    font-weight: bold;
+    font-family: "Times New Roman", Arial;
+}
+
+/* Image formatting */
+img {
+    width: 280px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Innner warper with animal description */
+.cardInnerWrapper {
+    border: 0.6px gray solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    text-align: left;
+}
+
+/* Interesting fact formatting */
+.fact {
+    font-style: italic;
+}
+
+/* Paragraph color formatting */
+p {
+    color: black;
+}
+
+/* Animal description formatting */
+.animalInfor {
+    padding-left: 0;
+    text-align: justify;
+}
+
+/* Remove bullets from the key facts */
+.animalInfor li {
+    list-style: none;
+}
+
+/* Additional animal formatting */
+.animalInfor span {
+    font-weight: bold;
+}
